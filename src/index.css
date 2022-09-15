@@ -1,4 +1,4 @@
-/* Google font: Poppins 600 (for header) */
+/* Google font: Poppins 600 (for headings) */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 /* Google font: Open Sans 400/700 (for body and CTA) */
@@ -9,8 +9,26 @@
 @tailwind utilities;
 
 :root {
-  --pink: hsl(322, 100%, 66%);
-  --veryPaleCyan: hsl(193, 100%, 96%);
-  --veryDarkCyan: hsl(192, 100%, 9%);
-  --grayishBlue: hsl(208, 11%, 55%);
+  --pink: #ff52bf;
+  --veryPaleCyan: #ebfbff;
+  --veryDarkCyan: #00252e;
+  --grayishBlue: #808d99;
+}
+
+@layer base {
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-['Poppins']
+  }
+
+  p, span, button, li, i {
+    @apply font-['Open_Sans']
+  }
+}
+
+.hero {
+  background-image: url('./assets/bg-hero-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--veryPaleCyan);
 }
