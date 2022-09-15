@@ -7,16 +7,18 @@ const Hero = () => {
     <div className='hero w-full h-screen flex flex-col justify-between py-8'>
       <Navbar />
       {/* Text */}
-      <div className=''>
-        <h1>Build The Community Your Fans Will Love</h1>
-        <p>
+      <div className='px-2 mx-auto text-center'>
+        <h1 className='text-3xl text-[#00252e] font'>Build The Community Your Fans Will Love</h1>
+        <p className='text-[#00252e] my-8 text-lg'>
           Huddles re-imagines the way we build communities. You have a
           voice, but so does your audience. Create connections with your
           users as you engage in genuine discussion.
         </p>
-        <button>Get Started For Free</button>
+        <button className='text-white bg-[#ff52bf] text-lg px-14 py-2 rounded-3xl'>
+          Get Started For Free
+        </button>
       </div>
-      <img src={MockUp} alt='mockup'/>
+      <img className='px-4 mx-auto' src={MockUp} alt='mockup'/>
     </div>
   )
 }

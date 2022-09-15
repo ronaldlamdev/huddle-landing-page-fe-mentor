@@ -24,6 +24,7 @@
   p, span, button, li, i {
     @apply font-['Open_Sans']
   }
+
 }
 
 .hero {
