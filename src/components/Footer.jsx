@@ -9,11 +9,11 @@ import {AiOutlineTwitter, AiOutlineInstagram} from 'react-icons/ai'
 
 const Footer = () => {
   return (
-    <footer className='bg-[#00252e] text-white'>
-      <img src={Logo} alt="logo" />
-      <div>
+    <footer className='bg-[#00252e] text-white mx-auto p-8 flex flex-col justify-between gap-8'>
+      <img src={Logo} alt="logo" className='brightness-[9] grayscale max-w-[150px]'/>
+      <div className='flex flex-col justify-between gap-8'>
         <ul>
-          <li>
+          <li className='flex'>
             <GoLocation />
             <p>
               Lorem ipsum dolor sit amet, 
