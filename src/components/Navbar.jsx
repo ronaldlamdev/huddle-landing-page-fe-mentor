@@ -8,7 +8,7 @@ const Navbar = () => {
       <a href='/'>
         <img className='max-w-[150px]' src={Logo} alt='logo'/>
       </a>
-      <button className='bg-white text-[#00252e] shadow-xl font-bold px-8 py-2 rounded-3xl'>
+      <button className='bg-white text-[#00252e] shadow-xl font-bold px-8 py-2 rounded-3xl hover:opacity-70 duration-300'>
         Try It Free
       </button>
     </div>
