@@ -9,7 +9,7 @@ import {AiOutlineTwitter, AiOutlineInstagram} from 'react-icons/ai'
 
 const Footer = () => {
   return (
-    <footer className='bg-[#00252e] text-white mx-auto px-8 py-28 flex flex-col justify-between gap-8'>
+    <footer className='bg-[#00252e] text-white px-8 pt-40 pb-8 flex flex-col justify-between gap-8'>
       <a href='/'>
         <img src={Logo} alt="logo" className='brightness-[9] grayscale max-w-[150px]'/>
       </a>
