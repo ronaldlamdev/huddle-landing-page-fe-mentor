@@ -10,11 +10,13 @@ import {AiOutlineTwitter, AiOutlineInstagram} from 'react-icons/ai'
 const Footer = () => {
   return (
     <footer className='bg-[#00252e] text-white mx-auto p-8 flex flex-col justify-between gap-8'>
-      <img src={Logo} alt="logo" className='brightness-[9] grayscale max-w-[150px]'/>
+      <a href='/'>
+        <img src={Logo} alt="logo" className='brightness-[9] grayscale max-w-[150px]'/>
+      </a>
       <div className='flex flex-col justify-between gap-8'>
         <ul>
-          <li className='flex'>
-            <GoLocation />
+          <li className='flex py-2'>
+            <GoLocation size={35} className='mr-4'/>
             <p>
               Lorem ipsum dolor sit amet, 
               consectetur adipiscing elit, sed do 
@@ -22,26 +24,27 @@ const Footer = () => {
               dolore magna aliqua
             </p>
           </li>
-          <li>
-            <FiPhoneCall />
+          <li className='flex items-center py-2'>
+            <FiPhoneCall className='mr-4'/>
             <p>+1-543-123-4567</p>
           </li>
-          <li>
-            <HiOutlineMail />
+          <li className='flex items-center py-2'>
+            <HiOutlineMail className='mr-4'/>
             <p>example@fyle.com</p>
           </li>
         </ul>
         <ul>
-          <li>About Us</li>
-          <li>What We Do</li>
-          <li>FAQ</li>
-          <li>Career</li>
-          <li>Blog</li>
-          <li>Contact Us</li>
+          <li className='py-2'>About Us</li>
+          <li className='py-2'>What We Do</li>
+          <li className='py-2'>FAQ</li>
+          <li className='py-2'>Career</li>
+          <li className='py-2'>Blog</li>
+          <li className='py-2'>Contact Us</li>
         </ul>
       </div>
-      <div>
-        <div>
+
+      <div className='flex flex-col justify-between gap-4 text-center'>
+        <div className='flex justify-center'>
           <CgFacebook />
           <AiOutlineTwitter />
           <AiOutlineInstagram />
