@@ -6,7 +6,7 @@ import YourUsers from '../assets/illustration-your-users.svg'
 
 const Main = () => {
   return (
-    <main className='mx-auto w-full px-8 pt-8 pb-28 flex flex-col justify-around gap-8 relative'>
+    <main className='mx-auto w-full px-8 lg:px-60 pt-8 pb-28 flex flex-col justify-around gap-8 relative'>
       <MainCard 
         image={GrowTogether} 
         forAlt='grow together'

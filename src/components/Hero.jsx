@@ -4,7 +4,7 @@ import MockUp from '../assets/illustration-mockups.svg'
 
 const Hero = () => {
   return (
-    <div className='hero w-full h-screen flex flex-col justify-between py-8 lg:gap-40'>
+    <div className='hero w-full h-screen flex flex-col justify-between py-8 lg:gap-40 lg:px-48'>
       
       <Navbar />
       {/* Text */}
