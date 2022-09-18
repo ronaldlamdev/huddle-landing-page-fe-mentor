@@ -38,12 +38,13 @@ const Main = () => {
         users can start chatting immediately."
       />
 
-      <div className='flex flex-col p-6 justify-center items-center gap-4 text-center absolute bottom-[-6.5rem] rounded-lg bg-white shadow-xl mx-auto left-4 right-4'>
+      <div className='flex flex-col p-6 justify-center items-center gap-4 text-center absolute bottom-[-6.5rem] rounded-lg bg-white shadow-xl mx-auto left-[12.5%] right-[12.5%] lg:left-[25%] lg:right-[25%]'>
         <h1 className='sm:text-2xl'>Ready To Build Your Community</h1>
         <button className='text-white bg-[#ff52bf] text-lg px-14 py-2 shadow-lg rounded-3xl hover:opacity-70 duration-300'>
           Get Started For Free
         </button>
       </div>
+      
     </main>
   )
 }
