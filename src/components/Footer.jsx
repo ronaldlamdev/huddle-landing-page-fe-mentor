@@ -9,12 +9,12 @@ import {AiOutlineTwitter, AiOutlineInstagram} from 'react-icons/ai'
 
 const Footer = () => {
   return (
-    <footer className='bg-[#00252e] text-white px-8 pt-40 pb-8 flex flex-col justify-between gap-8'>
+    <footer className='bg-[#00252e] text-white px-8 pt-40 pb-8 flex flex-col justify-between gap-8 lg:flex-row lg:justify-around lg:text-lg'>
+      <div className='flex flex-col justify-between gap-8 lg:flex-row lg:gap-4'>
       <a href='/' className='w-fit'>
         <img src={Logo} alt="logo" className='brightness-[9] grayscale max-w-[150px]'/>
       </a>
-      <div className='flex flex-col justify-between gap-8'>
-        <ul>
+        <ul className='w-[55%]'>
           <li className='flex py-2'>
             <GoLocation className='mr-4 text-4xl sm:text-lg'/>
             <p>
@@ -33,7 +33,7 @@ const Footer = () => {
             <p>example@fyle.com</p>
           </li>
         </ul>
-        <ul>
+        <ul className='lg:w-[20%]'>
           <li className='py-2 hover:underline cursor-pointer w-fit'>About Us</li>
           <li className='py-2 hover:underline cursor-pointer w-fit'>What We Do</li>
           <li className='py-2 hover:underline cursor-pointer w-fit'>FAQ</li>
