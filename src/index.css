@@ -34,3 +34,9 @@
   background-color: var(--veryPaleCyan);
 }
 
+@media screen and (min-width: 1024px) {
+  .hero {
+    background-image: url('./assets//bg-hero-desktop.svg');
+  }
+}
+
