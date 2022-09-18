@@ -14,7 +14,7 @@ const Hero = () => {
           voice, but so does your audience. Create connections with your
           users as you engage in genuine discussion.
         </p>
-        <button className='text-white bg-[#ff52bf] text-lg px-14 py-2 rounded-3xl hover:opacity-70 duration-300'>
+        <button className='text-white bg-[#ff52bf] shadow-lg text-lg px-14 py-2 rounded-3xl hover:opacity-70 duration-300'>
           Get Started For Free
         </button>
       </div>
