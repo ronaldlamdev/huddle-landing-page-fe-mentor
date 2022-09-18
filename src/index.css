@@ -27,6 +27,17 @@
 
 }
 
+@layer components {
+  .main-card:nth-child(1) {
+    @apply lg:flex-row-reverse
+  }
+
+  .main-card:nth-child(3) {
+    @apply lg:flex-row-reverse
+  }
+  
+}
+
 .hero {
   background-image: url('./assets/bg-hero-mobile.svg');
   background-repeat: no-repeat;
